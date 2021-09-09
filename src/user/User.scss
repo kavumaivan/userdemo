@@ -1,0 +1,31 @@
+
+
+  .userlist{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    .user{
+      border: 1px #c8c8c8 solid;
+      border-radius: 5px;
+      width: 300px;
+      min-height:250px;
+      display: inline-block;
+      padding: 5px 12px;
+      margin:3px;
+      overflow: hidden;
+      h3.name{
+        font-size:large;
+      }
+      .field{
+        text-align: left;
+      }
+      .user__company{
+        margin-left: -10px;
+      }
+      .user__address{
+        margin-top:-10px
+      }
+
+    } 
+  }
+  
