@@ -10,14 +10,14 @@ interface UserComponentProps {
 const UserCard: React.FC<UserComponentProps> = (props) => {
   return (
     <div className="user">
-      <h3 className="name">{props.user.name} </h3>
+      <h3 className="user-name">{props.user.name} </h3>
       <div className={"field"} >
-        <div className="user__company">
+        <div className="user-company">
            <CompanyCard company={props.user.company} shortDesc={true} />
          </div>
         </div>
         <div className={"field"} >
-        <div className="user__address">
+        <div className="user-address">
            <AddressCard address={props.user?.address}/>
          </div>
         </div>

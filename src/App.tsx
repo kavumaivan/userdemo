@@ -1,6 +1,6 @@
 import React from 'react';
 import Users from './user/Users'
-import  './App.css';
+import  './App.scss';
 
 const App:React.FunctionComponent = () =>  {
   return (

@@ -13,16 +13,16 @@
       padding: 5px 12px;
       margin:3px;
       overflow: hidden;
-      h3.name{
+      &-name{
         font-size:large;
       }
       .field{
         text-align: left;
       }
-      .user__company{
+      &-company{
         margin-left: -10px;
       }
-      .user__address{
+      &-address{
         margin-top:-10px
       }
 
