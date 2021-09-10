@@ -1,10 +1,10 @@
 import React from 'react';
-import Address from "./AddressInterface"
-import "./Address.scss"
+import Address from "./AddressInterface";
+import "./Address.scss";
 
 interface AddressComponentProps {
-    address: Address | undefined
-  }
+    address: Address | undefined;
+  };
 
 const AddressCard: React.FC<AddressComponentProps> = (props) => {
   return (

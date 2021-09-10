@@ -3,4 +3,3 @@ export default interface Company {
     catchPhrase: string;
     bs: string;
 }
-  
